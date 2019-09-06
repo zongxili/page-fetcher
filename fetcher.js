@@ -1,5 +1,5 @@
 // Get the targetted URL address and Dest File
-outputArr = process.argv.slice(2);
+const outputArr = process.argv.slice(2);
 const urlAddress = outputArr[0];
 const destFile = outputArr[1];
 
